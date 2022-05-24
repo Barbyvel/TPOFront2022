@@ -37,6 +37,7 @@
   }
 }
 
+/*---------------------------------------------*/
 body{
   background-color: #bdbaba;
   background-image: url(./imagenes/fondobody2.jpg);
@@ -78,6 +79,7 @@ body{
     position: relative;
     text-align: center;
     justify-content: center;
+    
 
   }
 
@@ -361,24 +363,24 @@ body{
 }
 
 
-.formulario__mensaje {
+/* .formulario__mensaje {
 	height: 45px;
-	line-height: 45px;
+	line-height: 45px; */
 	/* background: #FF5F00; */
-	padding: 0 15px;
+	/* padding: 0 15px;
 	border-radius: 3px;
 	display: none;
   color: red;
   text-align: center;
-}
+} */
 
-.formulario__mensaje-activo {
+/* .formulario__mensaje-activo {
 	display: block;
 }
 
 .formulario__mensaje p {
 	margin: 0;
-}
+} */
 
 .formulario__grupo-btn-enviar {
 	display: flex;
@@ -417,13 +419,14 @@ body{
 }
 
 /* ----- -----  Estilos para Validacion ----- ----- */
-.formulario__grupo-correcto .formulario__validacion-estado {
+/* .formulario__grupo-correcto .formulario__validacion-estado {
 	color: #1ed12d;
 	opacity: 1;
 }
 
 .formulario__grupo-incorrecto .formulario__label {
 	color: #bb2929;
+  opacity: 1;
 }
 
 .formulario__grupo-incorrecto .formulario__validacion-estado {
@@ -433,7 +436,8 @@ body{
 
 .formulario__grupo-incorrecto .formulario__input {
 	border: 3px solid #bb2929;
-}
+  opacity: 1;
+} */
 
 /* ------------------FOOTER ------------- */
   footer {
