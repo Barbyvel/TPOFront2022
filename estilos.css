@@ -42,7 +42,6 @@
 body{
   background-color: #bdbaba;
   background-image: url(./imagenes/fondobody2.jpg);
-  /* opacity: 80%; */
  }
 
 
@@ -129,7 +128,6 @@ body{
   nav {
     grid-area: my-nav;
     background-color: #FF5F00;
-    /* min-width: 2rem; */
     text-align: center;
     display: inline-flex;
     align-items: center;
@@ -139,7 +137,6 @@ body{
   nav a{
       text-decoration: none;
       padding: .5em;
-      /* font-family: 'Lato', sans-serif; */
       font-family: 'Square Peg', cursive;
       font-size: 5vh;
       color: #eeeeee;
@@ -182,7 +179,6 @@ body{
   }
   .home-aside p{
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
     text-align: left;
     justify-content: top;
@@ -205,7 +201,6 @@ body{
 
 /* --------------- CONTACT-ASIDE------------- */
 .contact-aside{
-  /* display:inline-flex; */
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -287,7 +282,6 @@ body{
   display: flex;
   align-items: flex;
   max-width: 100%;
-  /* min-height: 100%; */
   align-self: center;
 
 }
@@ -304,7 +298,6 @@ body{
 
 .formulario{
   background-color: transparent;
-  /* padding: 1em; */
   border-radius: 5px;
   width: 95%;
 }
@@ -446,7 +439,6 @@ body{
 
     .home-section img{
       min-height: .5fr;
-
     }
     .contact-aside{
       min-width: 270px;
