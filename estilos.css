@@ -91,12 +91,11 @@ body{
     font-size: 1.2em;
 }
   header p img{
-      width: 10rem;
-      /* min-width: 1vw; */
+      width: 9em;
+     
   }
   #logo{
     width: 2vw;
-    /* height: 40px; */
     margin: 2em;
 
   }
