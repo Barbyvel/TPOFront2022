@@ -48,35 +48,33 @@
         </nav>
 
         <section class="contact-section">
-                  
-            <div id="contactForm" class="contactForm">
-                <div id="formHeader" class="formHeader">
-                  <h1 id="message">Contáctanos</h1>
+          <div class="formulario">
+            <form id="signup" class="form" action="https://formspree.io/f/xbjwkkna" method="POST">
+                <h1>Contactanos</h1>
+                <div class="form-field">
+                    <label for="username">Nombre:</label>
+                    <input type="text" name="username" id="username" autocomplete="off" placeholder="Cosme Fulanito">
+                    <small></small>
                 </div>
-                <div id="formBody" class="formBody">
-                  <form action="" method="POST" name="contactForm">
-                    <div class="inputContainer">
-                      <label for="userName">
-                        <i class="fa fa-lg fa-fw fa-user"></i>
-                      </label>
-                      <input name="name" id="userName" type="text" placeholder="Cosme Fulanito">
-                    </div>
-                    <div class="inputContainer">
-                      <label for="userEmail">
-                        <i class="fa fa-lg fa-fw fa-envelope"></i>
-                      </label>
-                      <input name="email" id="userEmail" type="email" placeholder="abc@ejemplo.com">
-                    </div>
-                    <div class="inputContainer">
-                      <textarea name="feedback" id="userMessage" rows="10" placeholder="Escribe tu consulta"></textarea>
-                    </div>
-                    <input id="submitBtn" class="submitBtn" type="submit" value="Send">
-                  </form>
+    
+                <div class="form-field">
+                    <label for="Email">Email:</label>
+                    <input type="text" name="email" id="email" autocomplete="off" placeholder="aaa@example.com">
+                    <small></small>
                 </div>
-              </div>
-              
-
+    
+                <div class="form-comment">
+                    <label for="consulta">Comentarios:</label>
+                    <textarea name="mensaje" id="mensaje" placeholder="Escribe tu consulta"></textarea>
+                    <small></small>
+                </div>
+                <div class="form-field">
+                    <input type="submit" value="Enviar" class="btn">
+                </div>
+            </form>
+        </div>
          
+            
 
 			
         </section>

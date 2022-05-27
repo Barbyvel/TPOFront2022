@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
 }
-
+/*----------------BOTON WSAPP -----------------------------*/
 .container-boton{
   background-color: #2e6329;
   border: 1px solid #fff;
@@ -37,31 +37,29 @@
       box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
   }
 }
+/*-----------------------BODY----------------------------*/
 
 body{
   background-color: #bdbaba;
   background-image: url(./imagenes/fondobody2.jpg);
-  /* opacity: 80%; */
+
  }
 .container{
     color: #eeeeee;
     margin: 0 auto;
     max-width: 100%;
-    /* min-height: 100vh; */
     width: 95%;
     display: grid;
     grid-template-columns: repeat (3, 1fr);
     grid-template-rows: 120px
       100px
       2fr
-      /* 1fr */
       50px;
     grid-gap: 10px 10px;
     grid-template-areas:
     "my-header my-header my-header"
     "my-nav my-nav my-nav"
     "my-section my-section my-section"
-    /* "my-aside my-aside my-aside" */
     "my-footer my-footer my-footer"
   }
 
@@ -123,7 +121,6 @@ body{
   nav {
     grid-area: my-nav;
     background-color: #FF5F00;
-    /* min-width: 2rem; */
     text-align: center;
     display: inline-flex;
     align-items: center;
@@ -134,7 +131,6 @@ body{
   nav a{
       text-decoration: none;
       padding: .5em;
-      /* font-family: 'Lato', sans-serif; */
       font-family: 'Square Peg', cursive;
       font-size: 5vh;
       color: #eeeeee;
@@ -168,37 +164,6 @@ body{
   margin-right: 2em;
 }
  
-/* -----------ASIDE---------------------------- */
-  /* aside {
-    grid-area: my-aside;
-    background-color: #FF5F00;
-    overflow-y: auto;
-    font-family: 'Lato', sans-serif;
-    
-
-  }
-  .home-aside p{
-    display: flex;
-    /* flex-direction: row; */
-    /*flex-wrap: wrap;
-    text-align: left;
-    justify-content: top;
-    padding: 10px;
-
-  }
-.trabajos ul{
-  text-align: left;
-  list-style: circle;
-  
-
-}
-.home-aside h1, .home-aside h2{
-  text-shadow: 0.1em 0.1em 0.1em #00092C;
-  margin: 1em 2em;
-}
-.home-aside > p, ul{
-  margin: 1em 2em;
-} */
 
 
 /* --------------- SECTION ------------- */ 
@@ -242,16 +207,7 @@ body{
         text-align: center;
       }
     
-
-  
-/* .home-section img{
-  display: flex;
-  align-items: flex;
-  max-width: 100%;
-  min-height: 100%; 
-  align-self: center;
-
-} */
+/*-------------------------FOOTER ----------------------------*/
 
   footer {
     grid-area: my-footer;
@@ -259,8 +215,6 @@ body{
 
   }
   .copyright p{
-    /* background: #A8C7D6; */
-    /* height: 100vh; */
     display: flex;
     justify-content: center;
     color: #00092C;
@@ -276,7 +230,6 @@ body{
 .container  nav,
 .container  header,
 .container  section,
-/* .container  aside, */
 .container  footer{
       border-radius: 10px;
   }
@@ -296,11 +249,7 @@ body{
 
     }
 
-    /* .home-section img{
-      min-height: .5fr;
-
-    } */
-    
+  
 
   }
 
@@ -327,26 +276,6 @@ body{
     }
 
 
-
-
-
-    /* main{
-      display: inline-flex;
-      
-    } */
-    
-    
-
   }
 
-  /* .contact-aside{
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* flex: 1 1 auto; */
-  /* }
-   .frame{
-    border: 1px solid orange;
-    width: 60%;
 
-  } */
