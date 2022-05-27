@@ -88,7 +88,7 @@ body{
     font-family: 'Square Peg', cursive;
     color: #00092C;
     opacity: 75%;
-    font-size: 5vh;
+    font-size: 1.5vw;
 }
   header p img{
       width: 10rem;
@@ -305,9 +305,9 @@ body{
 
 .formulario{
   background-color: transparent;
-  padding: 1em;
+  /* padding: 1em; */
   border-radius: 5px;
-  width: 30vw;
+  width: 95%;
 }
 
 .form {
